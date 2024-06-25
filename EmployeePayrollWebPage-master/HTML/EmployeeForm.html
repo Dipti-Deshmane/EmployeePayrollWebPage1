@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../CSS/EmployeeForm.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+
+        <img class="img" src="./../Assets/emppayroll.png">
+        <h2 class="heading">Employee Payroll</h2>
+
+    </div>
+
+    <form>
+        <div class="formContent">
+            <div class="Empform">
+                <h3 style="margin-bottom: 4%;">Employee Payroll Form</h3>
+            </div>
+
+            <div class="Empform">
+                <label class="leftcontent" for="fname">Name</label>
+                <div class="rightcontent name-Input-msg">
+                    <input type="text" id="fname" name="fname" class="name-Input"><br>
+                    <span id="name-error" class="error">Enter correct name</span>
+                </div>
+            </div>
+
+            <div class="Empform">
+                <label class="leftcontent" for="fproImg">Profile Image</label>
+                <div class="rightcontent">
+                    <div class="profile-Input-msg">
+                    <div class="proImg">
+                        <input type="radio" id="proImg1" name="proImg" value="./../Assets/pr2.jpg">
+                        <img class="proImgs" src="./../Assets/pr2.jpg" alt="image1">
+                        <input type="radio" id="proImg2" name="proImg" value="./../Assets/img2.jpg">
+                        <img class="proImgs" src="./../Assets/img2.jpg" alt="image2">
+                        <input type="radio" id="proImg3" name="proImg" value="./../Assets/img3.png">
+                        <img class="proImgs" src="./../Assets/img3.png" alt="image3">
+
+                    </div>
+                    <div class="Input-msg">
+                        <span>Enter select the profile</span>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="Empform">
+                <label class="leftcontent" for="fgender">Gender</label>
+                <div class="rightcontent">
+                    <div class="gender-Input-msg">
+                    <div class="gender">
+                        <input class="fgender" type="radio" id="fgender" name="fgender" value="Male">
+                        <label for="fmale" class="fmale">Male</label>
+                        <input class="fgender" type="radio" id="fgender" name="fgender" value="Female">
+                        <label for="ffemale">Female</label><br>
+                    </div>
+                    <span>Please select gender</span>
+                </div>
+                </div>
+            </div>
+
+            <div class="Empform">
+                <label class="leftcontent" for="fdepartment">Department</label>
+                <div class="rightcontentt">
+                    <div class="depart-Input-msg">
+                      <input class="fdepartment" type="checkbox" id="fdepartment" name="fdepartment" value="HR"><label
+                        class="fhr">HR</label>
+                    <input class="fdepartment" type="checkbox" id="fdepartment" name="fdepartment" value="Sales"><label
+                        for="fsales">Sales</label>
+                    <input class="fdepartment" type="checkbox" id="fdepartment" name="fdepartment"
+                        value="Finance"><label for="ffinance">Finance</label>
+                    <input class="fdepartment" type="checkbox" id="fdepartment" name="fdepartment"
+                        value="Engineer"><label for="feng">Engineer</label>
+                    <input class="fdepartment" type="checkbox" id="fdepartment" name="fdepartment" value="Other"><label
+                        for="fother">Other</label>
+                   
+                    <span>Please select deparatment</span>
+                </div>
+             
+                </div>           
+            </div>
+
+            <div class="Empform">
+                <label class="leftcontent" for="fsalary">Salary</label>
+                <div class="rightcontent">
+                    <div class="salary-Input-msg">
+                    <select class="salary" id="fsalary" name="salary">
+                        <option value="">Select Salary</option>
+                        <option>Below 2LPA</option>
+                        <option>2LPA - 4LPA</option>
+                        <option>4LPA - 6LPA</option>
+                        <option>6LPA - 8LPA</option>
+                        <option>8LPA - 10LPA</option>
+                        <option>Above 10LPA</option>
+                    </select>
+                    <span>Please select salary</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Empform">
+                <label class="leftcontent" for="fstartdate">Start Date</label>
+                <div class="rightcontentt">
+                    <div class="startdate-Input-msg">
+
+                    <label class="startdate" for="fday">Day</label>
+                    <select class="date" id="day" name="day">
+                        <option value="">Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <label class="startdate" for="fmonth">Month</label>
+                    <select class="date" id="month" name="month">
+                        <option value="">Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>
+                        <option>Sept</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    
+                    <label class="startdate" for="fyear">Year</label>
+                    <select class="date" id="year" name="year">
+                        <option value="">Year</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                     </select>   
+                  
+                     <span>Please select start date</span>
+                    </div>
+                          
+                </div>
+            </div>
+
+            <div class="Empform">
+                <label class="leftcontent" for="fnotes">Notes</label>
+                <div class="rightcontent">
+                    <div class="notes-Input-msg">
+                    <textarea class="fnotes" type="text" id="fnotes" name="fnotes"></textarea>
+                    <span>Please write note</span>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="buttons">   
+            <div class="cancelbtn">
+                <button type="button" id="cancelbtn">Cancel</button>
+            </div>
+            <div class="submitbtn" style="margin-right: 5px;">
+                <button type="button" id="submitbtn">Submit</button>
+            </div>
+            <div class="updatebtn" style="margin-right: 5px;">
+                <button type="button" id="updatebtn">Update</button>
+            </div>
+            <div class="resetbtn">
+                <button type="reset" class="resetbtn">Reset</button>
+            </div>
+
+
+        </div>
+    </form>
+    <script src="./../JS/EmpForm.js"></script>
+    <script src="./../JS/Index.js"></script>
+   
+</body>
+
+</html>

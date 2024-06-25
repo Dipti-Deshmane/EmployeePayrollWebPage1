@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "id": "55d9",
+      "name": "jskhd",
+      "profile_image": {},
+      "gender": "Male",
+      "departments": [
+        "HR",
+        "Sales"
+      ],
+      "salary": "6LPA - 8LPA",
+      "notes": "jkd",
+      "start_date": "14 Jul 2019"
+    },
+    {
+      "name": "jdf",
+      "profile_image": "./../Assets/img2.jpg",
+      "gender": "Male",
+      "departments": [
+        "HR"
+      ],
+      "salary": "4LPA - 6LPA",
+      "start_date": "26 Sept 2018",
+      "id": "f105"
+    }
+  ]
+}
